@@ -1,0 +1,96 @@
+@charset "utf-8";
+main {
+  width: 100%;
+  height: 100vw;
+  padding-left: 15vw;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.animation__title {
+  width: 100%;
+  padding: 10px 0px 0px 10px;
+}
+.animation__title > h2 {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 60px;
+  padding-left: 7px;
+}
+.animation__gnb__list {
+  padding-top: 10px;
+  display: flex;
+}
+.animation__gnb__item {
+  margin-right: 10px;
+}
+.animation__gnb__item a {
+  padding: 10px 10px 10px 10px;
+  display: block;
+  font-weight: bold;
+  background-color: var(--yellow);
+  transition: 0.5s;
+}
+.animation__gnb__item a:hover {
+  background-color: #000;
+  color: var(--yellow);
+}
+
+.animation__con01 {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.animation__con01__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.animation__con01__item {
+  position: relative;
+  width: 760px;
+  height: 375px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  margin: 0px 10px 10px 0px;
+  overflow: hidden;
+  display: flex;
+}
+.animation__con01__item__con {
+  width: 65%;
+  height: 100%;
+  background-color: orange;
+}
+.animation__con01__item__title {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 40px;
+  color: var(--yellow);
+  text-align: center;
+}
+.animation__con01__item__ex {
+  width: 35%;
+  height: 100%;
+  padding: 10px;
+}
+.animation__con01__item__ex > p {
+  font-size: 16px;
+  line-height: 20px;
+  text-justify: inherit;
+  text-align: justify;
+}
+
+.animation__con01__item__ex > p > span {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.animation__con01__item__ex a {
+  padding: 15px;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  background-color: var(--yellow);
+  transition: 0.5s;
+}
